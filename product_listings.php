@@ -163,19 +163,7 @@ $getalllistings = mysqli_query($connectionString,$getalllistingssql);
 
 
     	?></p>
-
-    	 <p class="text-muted">Featured: <?php 
-
-        if($listing_row['P_FEATURED'] == 0){
-        	echo "Not Featured! <br> <a href='' class='btn btn-warning mt-3'>Feature Now (PKR 499)</a>";
-        }
-
-        else{
-        	echo "<strong><span class='text-success'>Featured</span></strong>";
-        }
-
-
-    	?></p>
+</p>
 
         </div>
     </div>
@@ -199,23 +187,6 @@ $getalllistings = mysqli_query($connectionString,$getalllistingssql);
     <div class="container">
       <h3>BarterMate</h3>
       <p>Solving the Problem of Physical Waste by Providing an Item Exchange Platform</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>BarterMate</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/BarterMate-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
     </div>
   </footer><!-- End Footer -->
 

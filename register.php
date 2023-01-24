@@ -45,7 +45,7 @@ if(isset($_POST['register'])){
         move_uploaded_file($_FILES['fdp']['tmp_name'],$FileGOTO_img);
 
 
-	$registersql = "INSERT INTO users(`U_NAME`, `U_EMAIL`, `U_PASS`, `U_PHONE`,`U_IMG_URL`, `U_VER_CODE`) VALUES('$name','$email','$pass','$phone','$fileGOTO_img','$v_key')";
+	$registersql = "INSERT INTO users(`U_NAME`, `U_EMAIL`, `U_PASS`, `U_PHONE`,`U_IMG_URL`, `U_VER_CODE`) VALUES('$name','$email','$pass','$phone','$FileGOTO_img','$v_key')";
 	$register = mysqli_query($connectionString,$registersql);
 
 	$u_id = mysqli_insert_id($connectionString);
@@ -54,7 +54,8 @@ if(isset($_POST['register'])){
 	if($register){
 		//header("location:email_ver.php?id=$u_id");
         echo "DONE";
-        echo $fileGOTO_img;
+        echo $FileGOTO_img;
+        header("Location:login.php");
 	}
 
 
@@ -178,12 +179,13 @@ if(isset($_POST['register'])){
                     <label for="floatingInput">Email address</label>
                   </div>
                   <div class="form-floating mb-3">
-                    <input name="fpass" type="password" class="form-control" id="floatingPassword" placeholder="Password" required="">
+                    <input name="fpass" type="password" class="form-control" id="password"  placeholder="Password" required="">
                     <label for="floatingPassword">Password</label>
+                    <input style="margin-left:650px;" type="checkbox" id="view-password" onclick="togglePassword()"> Show Password
                   </div>
                   <div class="form-floating">
                     <input name="fphone" type="phone" class="form-control" id="floatingPassword" placeholder="Phone" required="">
-                    <label for="floatingPassword">Phone Number (+92)</label>
+                    <label for="floatingPassword">Phone Number (+216)</label>
                   </div>
 
 
@@ -211,23 +213,7 @@ if(isset($_POST['register'])){
     <div class="container">
       <h3>BarterMate</h3>
       <p>Solving the Problem of Physical Waste by Providing an Item Exchange Platform</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>BarterMate</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/BarterMate-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+
     </div>
   </footer><!-- End Footer -->
 
@@ -244,6 +230,17 @@ if(isset($_POST['register'])){
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+  function togglePassword() {
+    var password = document.getElementById("password");
+    var viewPassword = document.getElementById("view-password");
+    if (viewPassword.checked) {
+      password.type = "text";
+    } else {
+      password.type = "password";
+    }
+  }
+</script>
 
 </body>
 

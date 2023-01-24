@@ -152,9 +152,9 @@ $num_of_saved = mysqli_num_rows($getallsaved);
 <div class="position-fixed bottom-0 start-50 translate-middle-x p-3" style="z-index: 11">
   <div id="liveToast" class="toast hide bg-success text-light " role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-body d-flex row">
-      <center>
+      <div style="align : center;" >
      <i class="ri-check-double-line ri-xl col-1" style="align-self: center; vertical-align: -0.25rem;"></i> <span class="col">Listing Saved Successfully</span>
-     </center>
+</div>
     </div>
   </div>
 </div>
@@ -395,23 +395,6 @@ $num_of_saved = mysqli_num_rows($getallsaved);
     <div class="container">
       <h3>BarterMate</h3>
       <p>Solving the Problem of Physical Waste by Providing an Item Exchange Platform</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>BarterMate</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/BarterMate-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
     </div>
   </footer><!-- End Footer -->
 

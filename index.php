@@ -76,8 +76,6 @@ if($_SESSION['u_id'] != null){
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Listings</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link" href="login.php">Login/Register</a></li>
@@ -151,10 +149,7 @@ if($_SESSION['u_id'] != null){
                         </ul>
                     </div>
                     <div class="col-lg-6 pt-0 pt-lg-0s ">
-                        <p style="text-transform: capitalize; line-height: 2rem;">
-                            BarterMate Is An Application That Promotes Bartering Of Products Instead Of Them Ending Up In A Landfill And Polluting The Environment For Years To Come. We Do This By Allowing Users To List Their Un-Used Products And Initiate A Swap, Agree on the Swap
-                            and Meet In Person to Complete the Swap OR Incase they cannot meet in person they can use our SWAP DELIVERY Service.
-                        </p>
+                        
 
                     </div>
                 </div>
@@ -259,7 +254,7 @@ if($_SESSION['u_id'] != null){
         </section>
         <!-- End Features Section -->
 
-        <!-- ======= Cta Section ======= -->
+        <!-- ======= Cta Section =======
         <section id="cta" class="cta" data-aos="fade-up">
             <div class="container">
 
@@ -275,10 +270,10 @@ if($_SESSION['u_id'] != null){
 
             </div>
         </section>
-        <!-- End Cta Section -->
+        End Cta Section -->
 
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio" data-aos="fade-up">
+        <!-- <section id="portfolio" class="portfolio" data-aos="fade-up">
             <div class="container">
 
                 <div class="section-title" >
@@ -388,11 +383,11 @@ if($_SESSION['u_id'] != null){
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- End Portfolio Section -->
 
         <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing" data-aos="fade-up">
+        <!-- <section id="pricing" class="pricing" data-aos="fade-up">
             <div class="container">
 
                 <div class="section-title" >
@@ -434,7 +429,7 @@ if($_SESSION['u_id'] != null){
                             </div>
                         </div>
                     </div>
-                    <!--
+                    
                     <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
                         <div class="box" data-aos="zoom-in" data-aos-delay="200">
                             <h3>Developer</h3>
@@ -469,86 +464,14 @@ if($_SESSION['u_id'] != null){
                             </div>
                         </div>
                     </div>
-                    -->
+                   
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- End Pricing Section -->
 
-        <!-- ======= F.A.Q Section ======= -->
-        <section id="faq" class="faq" data-aos="fade-up">
-            <div class="container">
-
-                <div class="section-title" >
-                    <h2>F.A.Q</h2>
-                    <p>Frequently Asked Questions</p>
-                </div>
-
-                <ul class="faq-list">
-
-                    <li>
-                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                cursus turpis massa tincidunt dui.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                molestie at elementum eu facilisis sed odio morbi quis
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                cursus turpis massa tincidunt dui.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-                            </p>
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
-        </section>
+     
         <!-- End F.A.Q Section -->
 
         <!-- ======= Team Section ======= -->
@@ -565,17 +488,14 @@ if($_SESSION['u_id'] != null){
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/team/ronit.jpg" class="img-fluid" alt="">
+                                <img style="height:300px;" src="assets/img/team/badii.jpg" class="img-fluid" alt="">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://www.facebook.com/msalmi.badii/"><i class="bi bi-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/badii-msalmi/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
+                                <h4>Badii Msalmi</h4>
                             </div>
                         </div>
                     </div>
@@ -583,59 +503,17 @@ if($_SESSION['u_id'] != null){
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member" >
                             <div class="member-img">
-                                <img src="assets/img/team/adarsh.jpg" class="img-fluid" alt="">
+                                <img style="height:300px;" src="assets/img/team/mayssa.jpg" class="img-fluid" alt="">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100008832750564"><i class="bi bi-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/maissa-ben-fredj-a5b2951b9/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Adarsh Nandlal</h4>
-                                <span>Product Manager</span>
+                                <h4>Mayssa Ben Fredj</h4>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" >
-                            <div class="member-img">
-                                <img src="assets/img/team/sir_ali.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>CTO</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" >
-                            <div class="member-img">
-                                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
         </section>
         <!-- End Team Section -->
@@ -656,7 +534,7 @@ if($_SESSION['u_id'] != null){
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>Glass Tower, Block 8 Frere Town, Karachi 75500</p>
+                                <p>L' ISET de Radès, Av. de France, Radès</p>
                             </div>
 
                             <div class="email">
@@ -668,7 +546,7 @@ if($_SESSION['u_id'] != null){
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <p>+216 58 562 292</p>
                             </div>
 
                         </div>
@@ -715,23 +593,6 @@ if($_SESSION['u_id'] != null){
     <div class="container">
       <h3>BarterMate</h3>
       <p>Solving the Problem of Physical Waste by Providing an Item Exchange Platform</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>BarterMate</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/BarterMate-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
     </div>
   </footer><!-- End Footer -->
 

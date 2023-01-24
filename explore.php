@@ -146,12 +146,6 @@ $curr_date = date("Y-m-d");
             ?>  
           </select>
           <br>
-          <label for="swap_type" class="form-label">Swap Type</label>
-          <select onchange="execFilter(this.value)" name="swap_type" id="swap_select" class="form-select rounded mx-0">
-              <option value="2" selected>All</option>
-              <option class="product_filter" value="0">Monetary</option>
-              <option class="product_filter" value="1">Product Barter</option>
-          </select>
       </div>
 
       </div>
@@ -171,26 +165,14 @@ $curr_date = date("Y-m-d");
 
             <input onkeyup="searchTyping(this.value)" style="border-radius: 1rem;" type="search"  class="form-control col rounded mx-0" placeholder="Search Here (Start Typing...)" aria-label="search" aria-describedby="basic-addon1" id="search-text" required>
 
-            <div class="dropdown col-1">
-                <button class="btn" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i style="align-self: center; cursor: pointer;"  class="bi bi-list-nested dropdown" data-toggle="dropdown"></i>
-                </button>
-                <ul class="dropdown-menu" id="menu-list-top">
-                    <li><a class="dropdown-item" href="#">Relevance</a></li>
-                    <li><a class="dropdown-item" href="#">Latest</a></li>
-                </ul>
-            </div>
 
       </div>
 
           <hr>
 
-
-          <p >Sorted By <span id="sort-type" class="text-muted">Relevance</span></p>
           <div class="row">
           <p class="col">Search Term: <span id="search-term"><span class="badge bg-secondary">null</span></p>
           <p class="col">Category: <span id="categorty-filter" class="badge bg-secondary">All</span></p>
-              <p class="col">Exchange: <span id="exchange-filter" class="badge bg-secondary">All</span></p>
           </div>
 
           <hr>
@@ -219,23 +201,6 @@ $curr_date = date("Y-m-d");
     <div class="container">
       <h3>BarterMate</h3>
       <p>Solving the Problem of Physical Waste by Providing an Item Exchange Platform</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>BarterMate</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/BarterMate-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
     </div>
   </footer><!-- End Footer -->
 
